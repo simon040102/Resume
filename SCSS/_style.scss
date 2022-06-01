@@ -1,0 +1,158 @@
+.wrap {
+  padding: 20px 50px;
+  margin: 0 auto;
+  max-width: 1024px;
+  box-shadow: 0 0 8px gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.top-content {
+  margin-bottom: 50px;
+  padding: 20px;
+  h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  h5 {
+    margin-bottom: 20px;
+  }
+  display: flex;
+  .MugShot {
+    border-radius: 50%;
+    width: 120px;
+    height: 160px;
+  }
+  ul {
+    margin-top: 50px;
+    margin-left: 50px;
+    img {
+      width: 20px;
+      margin-right: 5px;
+    }
+    li {
+      line-height: 1.5em;
+      display: flex;
+      align-items: center;
+      a {
+        color: #13ab67;
+      }
+    }
+  }
+}
+.center-content {
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .title {
+    margin-left: 30px;
+    list-style-type: disc;
+    margin-bottom: 100px;
+    li {
+      list-style-type: disc;
+      color: rgb(171, 168, 168);
+      h3 {
+        font-size: 25px;
+        color: black;
+        margin-left: 50px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .experience {
+      list-style-type: disc;
+      margin-bottom: 20px;
+      li {
+        color: black;
+        list-style: disc;
+        font-size: 20px;
+        margin-left: 100px;
+        line-height: 1.5em;
+      }
+    }
+  }
+}
+
+.program {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+  h2 {
+    border-bottom: 2px solid rgb(170, 161, 161);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-top: 20px;
+    li {
+      margin-left: 50px;
+      list-style-type: disc;
+    }
+  }
+}
+.training {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+  h2 {
+    border-bottom: 2px solid rgb(170, 161, 161);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-weight: bolder;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+.introduction {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+
+  h2 {
+    border-bottom: 2px solid rgb(170, 161, 161);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+.lh-1 {
+  line-height: 1.5em;
+}
+
+.list-style-none {
+  list-style-type: none !important;
+}
+@media (max-width: 576px) {
+  .top-content {
+    display: block;
+
+    ul {
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+  }
+  .center-content {
+    .title {
+      li {
+        h3 {
+          margin-left: 0px;
+        }
+      }
+      .experience {
+      li {
+        margin-left: 20px;
+      }
+    }
+    }
+  }
+}

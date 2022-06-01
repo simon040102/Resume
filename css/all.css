@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600,700);
+CSSResult Skip Results Iframe
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  padding: 20px 50px;
+  margin: 0 auto;
+  max-width: 1024px;
+  -webkit-box-shadow: 0 0 8px gray;
+          box-shadow: 0 0 8px gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top-content {
+  margin-bottom: 50px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-content h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.top-content h5 {
+  margin-bottom: 20px;
+}
+
+.top-content .MugShot {
+  border-radius: 50%;
+  width: 120px;
+  height: 160px;
+}
+
+.top-content ul {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.top-content ul img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.top-content ul li {
+  line-height: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-content ul li a {
+  color: #13ab67;
+}
+
+.center-content h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.center-content .title {
+  margin-left: 30px;
+  list-style-type: disc;
+  margin-bottom: 100px;
+}
+
+.center-content .title li {
+  list-style-type: disc;
+  color: #aba8a8;
+}
+
+.center-content .title li h3 {
+  font-size: 25px;
+  color: black;
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.center-content .title li p {
+  font-size: 16px;
+}
+
+.center-content .title .experience {
+  list-style-type: disc;
+  margin-bottom: 20px;
+}
+
+.center-content .title .experience li {
+  color: black;
+  list-style: disc;
+  font-size: 20px;
+  margin-left: 100px;
+  line-height: 1.5em;
+}
+
+.program {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.program h2 {
+  border-bottom: 2px solid #aaa1a1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.program ul {
+  margin-top: 20px;
+}
+
+.program ul li {
+  margin-left: 50px;
+  list-style-type: disc;
+}
+
+.training {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.training h2 {
+  border-bottom: 2px solid #aaa1a1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.training h3 {
+  font-weight: bolder;
+}
+
+.training p {
+  margin-bottom: 20px;
+}
+
+.introduction {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.introduction h2 {
+  border-bottom: 2px solid #aaa1a1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.lh-1 {
+  line-height: 1.5em;
+}
+
+.list-style-none {
+  list-style-type: none !important;
+}
+
+@media (max-width: 576px) {
+  .top-content {
+    display: block;
+  }
+  .top-content ul {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .center-content .title li h3 {
+    margin-left: 0px;
+  }
+  .center-content .title .experience li {
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=all.css.map */
